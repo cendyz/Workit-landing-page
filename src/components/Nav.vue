@@ -5,7 +5,7 @@
 		<a
 			href="#"
 			class="text-[1.8rem] underline decoration-[3px] underline-offset-8 decoration-green text-white font-bold z-100"
-			>Apply for access</a
+			>Apply for accesxDs</a
 		>
 	</nav>
 </template>
