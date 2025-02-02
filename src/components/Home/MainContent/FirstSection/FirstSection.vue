@@ -1,6 +1,6 @@
 <template>
 	<section
-		class="grid gap-y-[3.2rem] pt-[14.7rem] px-[2rem] relative bg-purple-100 z-10 before:absolute before:bottom-[-3rem] before:left-1/2 before:w-[130%] before:translate-x-[-50%] before:h-[20rem] before:bg-purple-100 overflow-x-clip">
+		class="grid gap-y-[3.2rem] pt-[14.7rem] px-[2rem] relative bg-purple-100 z-[2] before:absolute before:bottom-[-3rem] before:left-1/2 before:w-[130%] before:translate-x-[-50%] before:h-[20rem] before:bg-purple-100 overflow-x-clip">
 		<div
 			class="flex flex-col items-center"
 			v-for="item in data"
@@ -13,7 +13,7 @@
 				class="font-fraunces text-[2.4rem] leading-[1.2] text-purple-900 mb-[1.6rem]">
 				{{ item.title }}
 			</h2>
-			<p class="text-purple-900 leading-[1.8] text-center z-100 relative">
+			<p class="text-purple-900 leading-[1.8] text-center z-[15] relative">
 				{{ item.desc }}
 			</p>
 		</div>

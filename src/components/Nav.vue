@@ -1,6 +1,6 @@
 <template>
 	<nav
-		class="px-[2rem] pt-[3.2rem] flex justify-between items-center bg-purple-900 relative z-10">
+		class="px-[2rem] pt-[3.2rem] flex justify-between items-center bg-purple-900 relative z-10 md:pt-[3.2rem] md:px-[4.4rem] z-100">
 		<img :src="logo" alt="workit" class="w-[9.6rem]" />
 		<a
 			href="#"
