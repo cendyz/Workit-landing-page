@@ -2,7 +2,7 @@
 	<header
 		class="bg-purple-900 text-center px-[2rem] pt-[5.6rem] pb-[14.4rem] relative before:absolute before:bottom-[-3rem] before:left-1/2 before:w-[130%] before:translate-x-[-50%] before:h-[20rem] before:bg-purple-900 overflow-x-clip z-[5] md:before:bottom-[-9rem] md:before:w-[101.1rem] md:before:h-[30rem]">
 		<h1
-			class="text-[4.8rem] text-white font-fraunces leading-[1.1] mb-[4rem] md:text-[6rem] md:px-[12rem]">
+			class="text-[4.8rem] text-white font-fraunces leading-[1.1] mb-[4rem] md:text-[6rem] md:px-[17rem]">
 			Data
 			<span
 				class="underline decoration-[3px] underline-offset-8 decoration-green"
