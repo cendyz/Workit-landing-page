@@ -9,4 +9,5 @@ import Nav from './components/Nav.vue'
 
 <style lang="scss">
 @use './sass/reset.scss';
+
 </style>
