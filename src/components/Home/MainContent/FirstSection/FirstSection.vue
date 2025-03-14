@@ -1,21 +1,21 @@
 <template>
 	<section
-		class="grid gap-y-[3.2rem] pt-[14.7rem] px-[2rem] relative bg-purple-100 z-[2] before:absolute before:bottom-[-3rem] before:left-1/2 before:w-[130%] before:translate-x-[-50%] before:h-[20rem] before:bg-purple-100 overflow-x-clip md:px-[4.4rem] md:pt-[19.6rem] md:pb-[4.4rem] md:before:bottom-[-10rem] md:before:w-[101.1rem] md:before:h-[30rem] lg:pt-[40rem] lg:grid lg:grid-cols-3 lg:before:w-[125rem]">
+		class="grid gap-y-[3.2rem] pt-[14.7rem] px-[2rem] relative bg-purple-100 z-[2] before:absolute before:bottom-[-3rem] before:left-1/2 before:w-[130%] before:translate-x-[-50%] before:h-[20rem] before:bg-purple-100 overflow-x-clip md:px-[4.4rem] md:pt-[19.6rem] md:pb-[4.4rem] md:before:bottom-[-10rem] md:before:w-[101.1rem] md:before:h-[30rem] lg:pt-[40rem] lg:grid lg:grid-cols-3 lg:before:w-[125rem] xl:pt-[60rem] xl:gap-0 xl:before:w-[173rem] xl:before:bottom-[-20rem] xl:before:h-[40rem]">
 		<div
-			class="flex flex-col items-center md:flex-row md:gap-x-[5.6rem] md:justify-center z-40 lg:flex-col"
+			class="flex flex-col items-center md:flex-row md:gap-x-[5.6rem] md:justify-center z-40 lg:flex-col container xl:w-[36rem]"
 			v-for="item in data"
 			:key="nanoid()">
 			<div
-				class="w-[4.8rem] h-[4.8rem] flex items-center justify-center border rounded-full border-purple-500 mb-[2.4rem] md:mb-0">
-				<p class="md:mb-0 font-fraunces">
+				class="w-[5.8rem] h-[5.8rem] flex items-center justify-center border rounded-full border-purple-500 mb-[2.4rem] md:mb-0">
+				<p class="md:mb-0 font-fraunces xl:text-[2.8rem] xl:pb-[.5rem]">
 					{{ item.num }}
 				</p>
 			</div>
 			<div class="text-center md:text-left md:w-[57.6rem] lg:w-fit lg:text-center lg:mt-[5rem]">
-				<h2 class="font-fraunces text-[2.4rem] leading-[1.2] text-purple-900 mb-[1.6rem]">
+				<h2 class="font-fraunces text-[2.4rem] leading-[1.2] text-purple-900 mb-[1.6rem] xl:text-[3.2rem]">
 					{{ item.title }}
 				</h2>
-				<p class="text-purple-900 leading-[1.8] z-[15] relative">
+				<p class="text-purple-900 leading-[1.8] z-[15] relative xl:text-[1.8rem]">
 					{{ item.desc }}
 				</p>
 			</div>
