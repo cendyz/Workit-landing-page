@@ -12,6 +12,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var Nav_vue_1 = require("./components/Nav.vue");
 var Header_vue_1 = require("./components/Home/Header.vue");
 var Main_vue_1 = require("./components/Home/MainContent/Main.vue");
+var Footer_vue_1 = require("./components/Home/Footer.vue");
 ; /* PartiallyEnd: #3632/scriptSetup.vue */
 function __VLS_template() {
     var __VLS_ctx = {};
@@ -34,6 +35,11 @@ function __VLS_template() {
     // @ts-ignore
     var __VLS_10 = __VLS_asFunctionalComponent(Main_vue_1.default, new Main_vue_1.default({}));
     var __VLS_11 = __VLS_10.apply(void 0, __spreadArray([{}], __VLS_functionalComponentArgsRest(__VLS_10), false));
+    // @ts-ignore
+    /** @type { [typeof Footer, ] } */ ;
+    // @ts-ignore
+    var __VLS_15 = __VLS_asFunctionalComponent(Footer_vue_1.default, new Footer_vue_1.default({}));
+    var __VLS_16 = __VLS_15.apply(void 0, __spreadArray([{}], __VLS_functionalComponentArgsRest(__VLS_15), false));
     var __VLS_slots;
     var $slots;
     var __VLS_inheritedAttrs;
@@ -55,6 +61,7 @@ var __VLS_self = (await Promise.resolve().then(function () { return require('vue
             Nav: Nav_vue_1.default,
             Header: Header_vue_1.default,
             Main: Main_vue_1.default,
+            Footer: Footer_vue_1.default,
         };
     },
 });

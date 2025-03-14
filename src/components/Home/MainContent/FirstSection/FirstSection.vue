@@ -1,8 +1,8 @@
 <template>
 	<section
-		class="grid gap-y-[3.2rem] pt-[14.7rem] px-[2rem] relative bg-purple-100 z-[2] before:absolute before:bottom-[-3rem] before:left-1/2 before:w-[130%] before:translate-x-[-50%] before:h-[20rem] before:bg-purple-100 overflow-x-clip md:px-[4.4rem] md:pt-[19.6rem] md:pb-[4.4rem] md:before:bottom-[-10rem] md:before:w-[101.1rem] md:before:h-[30rem] lg:pt-[40rem] lg:grid lg:grid-cols-3 lg:before:w-[125rem] xl:pt-[60rem] xl:gap-0 xl:before:w-[173rem] xl:before:bottom-[-20rem] xl:before:h-[40rem]">
+		class="grid gap-y-[3.2rem] pt-[14.7rem] px-[2rem] relative bg-purple-100 z-[2] before:absolute before:bottom-[-3rem] before:left-1/2 before:translate-x-[-50%] before:h-[20rem] before:bg-purple-100 before:w-[120vw] overflow-x-clip md:px-[4.4rem] md:pt-[19.6rem] md:pb-[4.4rem] md:before:bottom-[-10rem] md:before:h-[30rem] lg:pt-[40rem] lg:flex lg:justify-center xl:pt-[60rem] xl:gap-x-[3rem] xl:before:bottom-[-20rem] xl:before:h-[40rem]">
 		<div
-			class="flex flex-col items-center md:flex-row md:gap-x-[5.6rem] md:justify-center z-40 lg:flex-col container xl:w-[36rem]"
+			class="flex flex-col items-center md:flex-row md:gap-x-[5.6rem] md:justify-center z-40 lg:flex-col xl:w-[36rem]"
 			v-for="item in data"
 			:key="nanoid()">
 			<div

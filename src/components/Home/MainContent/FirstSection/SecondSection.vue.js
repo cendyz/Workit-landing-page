@@ -20,7 +20,7 @@ function __VLS_template() {
     var __VLS_directives;
     // CSS variable injection 
     // CSS variable injection end 
-    __VLS_elementAsFunction(__VLS_intrinsicElements.section, __VLS_intrinsicElements.section)(__assign({ class: ("grid px-[2rem] py-[9.2rem] pb-[0] relative container") }));
+    __VLS_elementAsFunction(__VLS_intrinsicElements.section, __VLS_intrinsicElements.section)(__assign({ class: ("grid px-[2rem] py-[9.2rem] pb-[0] relative container lg:mt-[8rem]") }));
     __VLS_elementAsFunction(__VLS_intrinsicElements.picture, __VLS_intrinsicElements.picture)({});
     __VLS_elementAsFunction(__VLS_intrinsicElements.source)({
         srcset: ((__VLS_ctx.guyDesktop)),
@@ -32,7 +32,7 @@ function __VLS_template() {
     __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)(__assign({ class: ("text-white leading-[1.8] text-center md:text-left md:text-[1.7rem] md:pr-[1.6rem] lg:text-[1.8rem] lg:pr-0 xl:text-[2.2rem]") }));
     __VLS_elementAsFunction(__VLS_intrinsicElements.button, __VLS_intrinsicElements.button)(__assign({ class: ("px-[3.2rem] py-[1.2rem] bg-green text-[1.6rem] md:text-[1.8rem] font-bold text-slate-900 xl:text-[2.2rem]") }));
     __VLS_elementAsFunction(__VLS_intrinsicElements.img)(__assign({ src: ((__VLS_ctx.downLines)), 'aria-hidden': ("true"), alt: ("") }, { class: ("hidden md:block absolute bottom-[-11rem] right-[4rem] lg:right-[7rem] xl:right-[17rem] xl:bottom-[-8rem]") }));
-    ['grid', 'px-[2rem]', 'py-[9.2rem]', 'pb-[0]', 'relative', 'container', 'mx-auto', 'block', 'md:mr-auto', 'md:ml-0', 'lg:w-[474px]', 'bg-purple-900', 'p-[3.2rem]', 'grid', 'place-items-center', 'gap-y-[3.2rem]', 'mt-[-4.7rem]', 'md:w-[55rem]', 'md:ml-auto', 'md:mt-[-11rem]', 'md:justify-items-start', 'md:p-[4.8rem]', 'lg:w-[60rem]', 'lg:mt-[-30rem]', 'lg:p-[6.4rem]', 'xl:w-[85rem]', 'text-white', 'font-fraunces', 'text-[3.2rem]', 'leading-[1.2]', 'md:text-[5rem]', 'xl:text-[5.6rem]', 'text-white', 'leading-[1.8]', 'text-center', 'md:text-left', 'md:text-[1.7rem]', 'md:pr-[1.6rem]', 'lg:text-[1.8rem]', 'lg:pr-0', 'xl:text-[2.2rem]', 'px-[3.2rem]', 'py-[1.2rem]', 'bg-green', 'text-[1.6rem]', 'md:text-[1.8rem]', 'font-bold', 'text-slate-900', 'xl:text-[2.2rem]', 'hidden', 'md:block', 'absolute', 'bottom-[-11rem]', 'right-[4rem]', 'lg:right-[7rem]', 'xl:right-[17rem]', 'xl:bottom-[-8rem]',];
+    ['grid', 'px-[2rem]', 'py-[9.2rem]', 'pb-[0]', 'relative', 'container', 'lg:mt-[8rem]', 'mx-auto', 'block', 'md:mr-auto', 'md:ml-0', 'lg:w-[474px]', 'bg-purple-900', 'p-[3.2rem]', 'grid', 'place-items-center', 'gap-y-[3.2rem]', 'mt-[-4.7rem]', 'md:w-[55rem]', 'md:ml-auto', 'md:mt-[-11rem]', 'md:justify-items-start', 'md:p-[4.8rem]', 'lg:w-[60rem]', 'lg:mt-[-30rem]', 'lg:p-[6.4rem]', 'xl:w-[85rem]', 'text-white', 'font-fraunces', 'text-[3.2rem]', 'leading-[1.2]', 'md:text-[5rem]', 'xl:text-[5.6rem]', 'text-white', 'leading-[1.8]', 'text-center', 'md:text-left', 'md:text-[1.7rem]', 'md:pr-[1.6rem]', 'lg:text-[1.8rem]', 'lg:pr-0', 'xl:text-[2.2rem]', 'px-[3.2rem]', 'py-[1.2rem]', 'bg-green', 'text-[1.6rem]', 'md:text-[1.8rem]', 'font-bold', 'text-slate-900', 'xl:text-[2.2rem]', 'hidden', 'md:block', 'absolute', 'bottom-[-11rem]', 'right-[4rem]', 'lg:right-[7rem]', 'xl:right-[17rem]', 'xl:bottom-[-8rem]',];
     var __VLS_slots;
     var $slots;
     var __VLS_inheritedAttrs;

@@ -1,5 +1,5 @@
 <template>
-	<section class="grid px-[2rem] py-[9.2rem] pb-[0] relative container">
+	<section class="grid px-[2rem] py-[9.2rem] pb-[0] relative container lg:mt-[8rem]">
 		<picture>
 			<source :srcset="guyDesktop" media="(min-width: 1280px)" />
 			<img :src="guy" alt="Happy guy" class="mx-auto block md:mr-auto md:ml-0 lg:w-[474px]" />

@@ -1,6 +1,6 @@
 <template>
 	<header
-		class="bg-purple-900 text-center px-[2rem] pt-[5.6rem] pb-[14.4rem] relative before:absolute before:bottom-[-3rem] before:left-1/2 before:w-[130%] before:translate-x-[-50%] before:h-[20rem] before:bg-purple-900 overflow-x-clip z-[5] md:before:bottom-[-9rem] md:before:w-[101.1rem] md:before:h-[30rem] lg:before:bottom-[-18rem] lg:before:w-[138rem] xl:before:w-[173rem] xl:before:bottom-[-28rem] xl:before:h-[40rem]">
+		class="bg-purple-900 text-center px-[2rem] pt-[5.6rem] pb-[14.4rem] relative before:absolute before:bottom-[-3rem] before:left-1/2 before:w-[130%] before:translate-x-[-50%] before:h-[20rem] before:bg-purple-900 overflow-x-clip z-[5] md:before:bottom-[-9rem]  md:before:h-[30rem] md:before:w-[120vw] lg:before:bottom-[-18rem] lg:before:w-[138rem] xl:before:bottom-[-28rem] xl:before:h-[40rem] xl:before:w-[120vw]">
 		<h1
 			class="text-[4.8rem] text-white font-fraunces leading-[1.1] mb-[4rem] md:text-[6rem] md:px-[17rem] lg:px-[0] lg:mx-auto lg:w-[37rem] xl:text-[8rem] xl:w-[45rem]">
 			Data

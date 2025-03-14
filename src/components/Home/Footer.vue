@@ -1,5 +1,5 @@
 <template>
-	<footer class="p-[8rem] flex flex-col items-center">
+	<footer class="p-[8rem] flex flex-col items-center md:mt-[6rem]">
 		<div class="grid gap-y-[5.6rem]">
 			<img :src="logo" alt="workit logo" />
 			<div class="flex justify-between">

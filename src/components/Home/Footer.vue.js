@@ -35,7 +35,7 @@ function __VLS_template() {
     var __VLS_ctx = {};
     var __VLS_components;
     var __VLS_directives;
-    __VLS_elementAsFunction(__VLS_intrinsicElements.footer, __VLS_intrinsicElements.footer)(__assign({ class: ("p-[8rem] flex flex-col items-center") }));
+    __VLS_elementAsFunction(__VLS_intrinsicElements.footer, __VLS_intrinsicElements.footer)(__assign({ class: ("p-[8rem] flex flex-col items-center md:mt-[6rem]") }));
     __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)(__assign({ class: ("grid gap-y-[5.6rem]") }));
     __VLS_elementAsFunction(__VLS_intrinsicElements.img)({
         src: ((__VLS_ctx.logo)),
@@ -46,7 +46,7 @@ function __VLS_template() {
         var item = _a[_i][0];
         __VLS_elementAsFunction(__VLS_intrinsicElements.img)(__assign(__assign({ src: ((item.icon)), ':alt': (("".concat(item.alt, " icon"))) }, { class: ("block") }), { key: ((__VLS_ctx.nanoid())) }));
     }
-    ['p-[8rem]', 'flex', 'flex-col', 'items-center', 'grid', 'gap-y-[5.6rem]', 'flex', 'justify-between', 'block',];
+    ['p-[8rem]', 'flex', 'flex-col', 'items-center', 'md:mt-[6rem]', 'grid', 'gap-y-[5.6rem]', 'flex', 'justify-between', 'block',];
     var __VLS_slots;
     var $slots;
     var __VLS_inheritedAttrs;
