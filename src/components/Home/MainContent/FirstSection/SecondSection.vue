@@ -1,5 +1,5 @@
 <template>
-	<section class="grid px-[2rem] py-[9.2rem] pb-[0] relative">
+	<section class="grid px-[2rem] py-[9.2rem] pb-[0] relative container">
 		<img :src="guy" alt="Happy guy" class="mx-auto block md:mr-auto md:ml-0" />
 		<div
 			class="bg-purple-900 p-[3.2rem] grid place-items-center gap-y-[3.2rem] mt-[-4.7rem] md:w-[55rem] md:ml-auto md:mt-[-11rem] md:justify-items-start md:p-[4.8rem]">

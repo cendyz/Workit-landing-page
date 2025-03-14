@@ -1,13 +1,10 @@
 <template>
 	<header
-		class="bg-purple-900 text-center px-[2rem] pt-[5.6rem] pb-[14.4rem] relative before:absolute before:bottom-[-3rem] before:left-1/2 before:w-[130%] before:translate-x-[-50%] before:h-[20rem] before:bg-purple-900 overflow-x-clip z-[5] md:before:bottom-[-9rem] md:before:w-[101.1rem] md:before:h-[30rem]">
+		class="bg-purple-900 text-center px-[2rem] pt-[5.6rem] pb-[14.4rem] relative before:absolute before:bottom-[-3rem] before:left-1/2 before:w-[130%] before:translate-x-[-50%] before:h-[20rem] before:bg-purple-900 overflow-x-clip z-[5] md:before:bottom-[-9rem] md:before:w-[101.1rem] md:before:h-[30rem] lg:before:bottom-[-18rem] lg:before:w-[125rem]">
 		<h1
-			class="text-[4.8rem] text-white font-fraunces leading-[1.1] mb-[4rem] md:text-[6rem] md:px-[17rem]">
+			class="text-[4.8rem] text-white font-fraunces leading-[1.1] mb-[4rem] md:text-[6rem] md:px-[17rem] lg:px-[0] lg:mx-auto lg:w-[37rem]">
 			Data
-			<span
-				class="underline decoration-[3px] underline-offset-8 decoration-green"
-				>tailored</span
-			>
+			<span class="underline decoration-[3px] underline-offset-8 decoration-green">tailored</span>
 			to your needs.
 		</h1>
 		<button
@@ -20,16 +17,16 @@
 			<img
 				:src="phone"
 				alt="phone"
-				class="w-[33rem] absolute bottom-[-10rem] left-1/2 translate-x-[-50%] z-10 md:w-[51rem] md:bottom-[-15rem]" />
+				class="w-[33rem] absolute bottom-[-10rem] left-1/2 translate-x-[-50%] z-10 md:w-[51rem] md:bottom-[-15rem] lg:w-[70%] lg:bottom-[-27rem]" />
 		</picture>
-		<img
-			:src="right"
-			alt=""
-			class="hidden md:block absolute right-0 bottom-[11%]" />
-		<img
-			:src="left"
-			alt=""
-			class="hidden md:block absolute left-0 top-[2%]" />
+		<picture>
+			<source :srcset="deskTopRight" media="(min-width: 1024px)" />
+			<img :src="right" alt="" class="hidden md:block absolute right-0 bottom-[11%]" />
+		</picture>
+		<picture>
+			<source :srcset="deskTopLeft" media="(min-width: 1024px)" />
+			<img :src="left" alt="" class="hidden md:block absolute left-0 top-[2%] lg:top-[8rem] lg:w-[20%]" />
+		</picture>
 	</header>
 </template>
 
@@ -38,6 +35,8 @@ import phone from '@/images/illustration.png'
 import right from '@/images/Group 10.png'
 import left from '@/images/Group 10 left.png'
 import tabletPhone from '@/images/phoneTablet.png'
+import deskTopLeft from '@/images/deskTopLeft.png'
+import deskTopRight from '@/images/desktopTopRight.png'
 </script>
 
 <style lang="scss">
@@ -48,6 +47,11 @@ header {
 	@media (min-width: 768px) {
 		&::before {
 			clip-path: ellipse(50% 35% at 50% 50%);
+		}
+	}
+	@media (min-width: 1024px) {
+		&::before {
+			clip-path: ellipse(49% 40% at 50% 50%);
 		}
 	}
 }
