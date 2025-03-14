@@ -1,8 +1,8 @@
 <template>
 	<section
-		class="grid gap-y-[3.2rem] pt-[14.7rem] px-[2rem] relative bg-purple-100 z-[2] before:absolute before:bottom-[-3rem] before:left-1/2 before:w-[130%] before:translate-x-[-50%] before:h-[20rem] before:bg-purple-100 overflow-x-clip md:px-[4.4rem] md:pt-[19.6rem] md:pb-[4.4rem] md:before:bottom-[-10rem] md:before:w-[101.1rem] md:before:h-[30rem]">
+		class="grid gap-y-[3.2rem] pt-[14.7rem] px-[2rem] relative bg-purple-100 z-[2] before:absolute before:bottom-[-3rem] before:left-1/2 before:w-[130%] before:translate-x-[-50%] before:h-[20rem] before:bg-purple-100 overflow-x-clip md:px-[4.4rem] md:pt-[19.6rem] md:pb-[4.4rem] md:before:bottom-[-10rem] md:before:w-[101.1rem] md:before:h-[30rem] lg:pt-[40rem] lg:grid lg:grid-cols-3 lg:before:w-[125rem]">
 		<div
-			class="flex flex-col items-center md:flex-row md:gap-x-[5.6rem] md:justify-center z-40"
+			class="flex flex-col items-center md:flex-row md:gap-x-[5.6rem] md:justify-center z-40 lg:flex-col"
 			v-for="item in data"
 			:key="nanoid()">
 			<div
@@ -11,9 +11,8 @@
 					{{ item.num }}
 				</p>
 			</div>
-			<div class="text-center md:text-left md:w-[57.6rem]">
-				<h2
-					class="font-fraunces text-[2.4rem] leading-[1.2] text-purple-900 mb-[1.6rem]">
+			<div class="text-center md:text-left md:w-[57.6rem] lg:w-fit lg:text-center lg:mt-[5rem]">
+				<h2 class="font-fraunces text-[2.4rem] leading-[1.2] text-purple-900 mb-[1.6rem]">
 					{{ item.title }}
 				</h2>
 				<p class="text-purple-900 leading-[1.8] z-[15] relative">
